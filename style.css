@@ -82,5 +82,39 @@ img {
 
     .choices {
         flex-direction: column;
+        margin-top: 5px;
+        gap: 0;
+
+    }
+
+    .choice {
+        height: 130px;
+        width: 130px;
+
+
+    }
+
+    .score-board,
+    .choice {
+        margin-top: 0;
+    }
+
+    h1 {
+        padding: 1rem;
+        font-size: 20px;
+    }
+
+    img {
+        height: 120px;
+        width: 120px;
+    }
+
+    #userscore,
+    #compscore {
+        font-size: 2rem;
+    }
+
+    #status {
+        font-size: 2rem;
     }
 }
